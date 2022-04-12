@@ -1,3 +1,3 @@
-add_lunch_combo lineage_hwliszt-user
-add_lunch_combo lineage_hwliszt-userdebug
-add_lunch_combo lineage_hwliszt-eng
+add_lunch_combo lineage_liszt-user
+add_lunch_combo lineage_liszt-userdebug
+add_lunch_combo lineage_liszt-eng
