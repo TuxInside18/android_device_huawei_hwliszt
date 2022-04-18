@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-#TODO: Inherit from liszt device
-$(call inherit-product, device/huawei/liszt/device.mk)
+#TODO: Inherit from hwliszt device
+$(call inherit-product, device/huawei/hwliszt/device.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
@@ -30,11 +30,12 @@ TARGET_SCREEN_WIDTH := 1200
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
 
-PRODUCT_NAME := lineage_liszt
-PRODUCT_DEVICE := liszt
+## Device identifier. This must come after all inclusions
+PRODUCT_NAME := lineage_LISZT
+PRODUCT_DEVICE := hwliszt
 PRODUCT_BRAND := Huawei
 PRODUCT_MANUFACTURER := HUAWEI
-PRODUCT_MODEL := HUAWEI-MEDIAPAD-M2
+PRODUCT_MODEL := HUAWEIM2-A01L
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="HUAWEI/LISZT/hwliszt:5.1.1/HUAWEIM2-A01L/C178B003:user/release-keys" \
